@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2? family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=MonteCarlo&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #ffffff;
+    --grey1: #fbfbfb;
+    --grey2:#65665b;
+    --grey4:#dddee0;
+    --grey5:#a0a1a0;
+    --black1: #0a0a0a;
+    --gold1: #d7da28;
+
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+
+
+body{
+    background-color: var(--black1);
+    
+}
+body img{
+    width: 100%;
+    height: 900px;
+}
+h1{
+    font-size: 76px;
+    font-weight: 800;
+    line-height: 105px;
+    
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 29px;
+    font-weight: 800;
+    margin-top: 15px;
+    
+}
+
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+    width: calc(100% - 50px);
+}
+.flex-conteiner{
+    display: flex;
+}
+
+.align-center{
+    align-items:center;
+}
+
+
+.justify-center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+#nav-bar{
+    background-color: black;
+    height: 72px;
+    width: 100%;
+}
+.nav-list{
+    width: 100%;
+    height: 26px;
+    padding-left: 500px;
+    text-decoration:none;
+    cursor: pointer;
+}
+    .nav-list li{
+        padding: 10px 16px;
+        border-radius: 16px;
+        color: var(--grey5);
+        font-size: 16px; 
+        font-weight: 500; 
+    }
+   
+
+.nav-list li:hover{
+    text-decoration: underline;
+    width: 100%;
+    height: 30px;
+}
+
+#nav-bar input{
+    max-width: 350px;
+    width: 100%;
+    height: 46px;
+    border: none;
+    background-color:var(--grey4);
+    border-radius: 16px;
+    padding-left: 36px;
+    outline: none;
+    font-size: 16px;
+    color: var(#565656);
+}
+
+#title{
+    background-color: var(--black1);
+    height: 200px;
+    width: 100%;
+}
+.icons-wrapper{
+    color: var(--gold1);
+    font-size: 35px;
+    gap: 56px;
+    
+}
+.post-title h1{
+    padding-left: 200px;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    
+    
+}
+  .text-conteiner{
+      color: var(--grey4);
+  } 
+  #main-article{
+      gap: 110px;
+        
+  }
+  #main-article h2{
+    font-family: 'Ubuntu Mono', monospace;
+}
+  
+  #main-article .text-conteiner{
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 15px;
+      padding: 15px;
+      
+  }
+  #main-article .img-conteiner{
+      position: relative;
+     width: 100%;
+      height: 540px;
+      background-color: #fbfbfb;
+      
+      
+
+      
+  }
+  #main-article .img{
+      position: relative;
+      width: 152%;
+      height: 550px;
+      
+  }
+  #main-article p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 26px;
+    margin-top: 100px;
+   /* margin-left: -250px; */
+    font-weight: 600;
+    line-height: 50px;
+    background-color: rgb(214, 136, 19);
+    color: darkred;
+    width: 50%;
+    height: 380px;
+    padding: 15px;
+
+}
+ #section-two .video-conteiner{
+      position: relative;
+      width: 200px;
+      height: 200px;
+      gap: 56px;
+      flex-direction: row;
+      margin-left: 50px;
+     
+      
+  } 
+ 
+  #section-one{
+      margin-top: 156px;
+      
+     background-color: var(--black1);
+     height: 800px;
+     width: 100%;
+     
+  } 
+  
+#section-two .cta{
+    font-size: 20px;
+    color: violet;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 125ms ease;
+    margin-bottom: 50px;
+
+
+}
+#section-two .seguimi{
+    margin-top: 50px;
+    margin-bottom: 56px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#section-tre {
+   width: 100%;
+   height: 700px;
+}
+.img-wrapper{
+    margin-left: 50px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.img-conteiner-tre{
+    width: 100%;
+    height: 650px;
+}
+#section-tre .img-conteiner-tre .img-wrapper .img-new{
+    width: 100%;
+    height: 550px;
+    padding: 40px;
+    
+}
+#section-tre .img-conteiner-tre .img-wrapper .img-read{
+    height: 550px;
+    width: 100%;
+    padding: 40px;
+}
+.forum-conteiner h3{
+    font-size: 36px;
+    color: rgb(47, 163, 82);
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Ubuntu Mono', monospace;
+    padding-left: 25px;
+    
+    
+}
+.forum-conteiner p{
+    color: darkgoldenrod;
+    font-size: 25px;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 25px;
+}
+.forum-conteiner .grid-conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto  ;
+    gap: 51px  116px;
+}
+.forum-conteiner form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 100px;
+    width: 368px;
+    height: 56px;
+    overflow: hidden;
+    background-color: yellow;
+    padding-left: 26px;
+}
+.forum-conteiner input{
+    
+    width: 100%;
+    outline: none;
+    border: none;
+    color: var(--grey2);
+    font-weight: 500;
+    background-color: rgb(190, 233, 104);
+}
+.forum-conteiner button[type="submit"]{
+    border: none;
+    padding: 16px 16px;
+    font-weight: 600;
+    width: 100px;
+    cursor: pointer;
+    transition: all 120ms ease;
+    
+}
+.forum-conteiner button[type="submit"]:hover{
+    color: green;
+    background:var(--gold1)
+}
+ .grid-conteiner .icons-wrapper{
+     margin-left: 50px;
+ }
+ .footer-link-conteiner{
+     margin-top: 180px;
+     gap: 117px;
+ }
+ footer .grid-list{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     gap: 150px 117px;
+     background-color: darkgoldenrod;
+     width: 100%;
+     height: 650px;
+     
+ }
+ .grid-list li{
+     color: var(--black1);
+     padding:8.5px 0px ;
+     font-size: 16px;
+     cursor: pointer;
+     transition: all 130ms ease;
+     
+ }
+ .grid-list li:hover{
+     color: darkolivegreen;
+     text-decoration: underline;
+ }
+ .grid-list ul{
+     padding-left: 100px;
+     margin-top: 45px;
+     
+ }
+ footer .copiraight{
+     font-size: 17px;
+     color: white;
+     padding: 15px;
+ }
+
+
+
+
+
+
+/*#section-one .cta:hover{
+    color: wheat;
+    text-decoration: underline;
+}*/
